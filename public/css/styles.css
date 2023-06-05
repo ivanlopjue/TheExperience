@@ -1,0 +1,144 @@
+#nombreRestaurante {
+    text-align: center;
+    border-bottom: 1px solid rgb(253, 189, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.articulosPrensa {
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px rgb(253, 189, 68);
+    margin:0 10px;
+    border-radius: 5px 10px 0px;
+    max-width: 300px;
+    max-height: 150px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menuNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlace:hover {
+    background-color: rgb(207, 162, 79);
+}
+
+.video {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#articulos {
+    display: flex;
+    justify-content: center;
+}
+
+#platosMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platos {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+summary {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+
+details {
+    border: 1px solid black;
+    max-width: max-content;
+    box-shadow: 2px 2px 7px rgb(253, 189, 68);
+}
+
+details:hover {
+    background-color: rgb(207, 162, 79);
+
+}
+
+img {
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+#reservas {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#anonimo {
+    padding-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#nueva_cuenta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 30%;
+    order: 4;
+
+}
+
+.cont_cuenta{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mis_reservas{
+    width: 30%;
+}
+
+.form_reserva{
+    width: 40%;
+    border-left: 1px solid white;
+    padding-left: 100px;
+}
+
+.material-icons{
+    color: white;
+}
+
+.material-icons:hover{
+    color: rgb(253, 189, 68);
+}
+
+.conjunto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapa{
+    width: 30%;
+}
+.datos {
+    width: 40%;
+    border-left: 1px solid white;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
